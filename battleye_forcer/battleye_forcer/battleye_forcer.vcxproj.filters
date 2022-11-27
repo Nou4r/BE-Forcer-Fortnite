@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="main\Forcer">
+      <UniqueIdentifier>{9d2e1e1a-5c47-4758-b7a1-e8df7cd39a5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\Log">
+      <UniqueIdentifier>{d02cf63e-dbb7-46e3-b8ea-e4e7d21c5e5d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="Forcer.cpp">
+      <Filter>main\Forcer</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>main\Log</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Forcer.hpp">
+      <Filter>main\Forcer</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>main\Log</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
